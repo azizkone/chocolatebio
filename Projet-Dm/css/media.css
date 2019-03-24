@@ -1,0 +1,209 @@
+/*********************NAV BAR*********************************************/
+
+@media only screen and (max-width:600px) {
+  .nav>.nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .nav>.nav-btn>label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+
+  .nav>.nav-btn>label:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .nav>.nav-btn>label>span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+
+  .nav>.nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+
+  .nav>.nav-links>a {
+    display: block;
+    width: 100%;
+  }
+
+  .nav>#nav-check:not(:checked)+.nav-links {
+    height: 0px;
+  }
+
+  .nav>#nav-check:checked+.nav-links {
+    height: 400px;
+    /*height: calc(100vh - 50px);*/
+    overflow-y: auto;
+    background: #333;
+    position: fixed;
+  }
+}
+
+/*************home*****************************/
+@media only screen and (max-width:600px) {
+  #section2{
+    height: 100%;
+  }
+  #section1 h1 {
+    margin-top: 60px;
+    font-size: 42px;
+
+  }
+
+  #container {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    width: 33.33333%;
+  }
+}
+/***********about*********/
+@media only screen and (max-width:600px) {
+  .slide.show  {
+    display: flex;
+    background-size:63%;
+    background-repeat: no-repeat;
+  }
+  #slideur{
+    width:auto;
+  }
+  
+  .slider-container{
+    width: 60%;
+    margin-left: 17px;
+    white-space:normal;
+  }
+.material{
+  width: auto;
+}
+.about-contenair{
+  width: 355px;
+  justify-content:center;
+  margin-right: 500px;
+  height: auto;
+}
+}
+
+/**********************section 3*******/
+@media only screen and (max-width:600px) {
+  .panel:nth-child(3) {
+    height: 100%;
+  }
+  .about-contenair{
+    width: 350px;
+    margin-left: -15px;
+    height: auto;
+  }
+  .slider-container{
+    margin-left: -15px;
+    white-space:normal;
+  }
+  #form-div{
+    margin-top: -70px;
+    margin-left: -100px;
+  }
+.switch{
+  top: -100px;
+  left: 90%;
+}
+}
+@media only screen and (max-width:800px) {
+  .slide.show  {
+    background-size:100%;
+    background-repeat: no-repeat;
+  }
+  .panel:nth-child(3) {
+    height: 100%;
+  }
+  .panel:nth-child(5) {
+    height:720px;
+  }
+#container{
+  margin-top: 300px;
+}
+.switch{
+  top:-100px;
+  left: 90%;
+}
+.about-contenair{
+  width: 600px;
+  justify-content:center;
+  margin-right: 500px;
+  height: auto;
+}
+.slider-container{
+  margin-left: -10px;
+  white-space:normal;
+}
+#form-div{
+  margin-top: -70px;
+  margin-left: -100px;
+}
+/*#section1 h1{
+  font-size: 70px;
+}*/
+#container{
+  margin-top:300px;
+}
+}
+@media only screen and (max-width:800px){
+  .panel:nth-child(2) {
+    height: 100%;
+  }
+  .panel:nth-child(3) {
+    height: 100%;
+  }
+  .panel:nth-child(5) {
+    height:800px;
+  }
+
+}
+/* ------------- */
+/* MEDIA QUERIES */
+/* ------------- */
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 32%;
+		margin-right: 3%;
+    width: 88%;
+		padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+/*********************footer**************/
+@media (max-width: 767px) {
+
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
