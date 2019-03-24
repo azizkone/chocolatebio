@@ -58,9 +58,9 @@
 
 /*************home*****************************/
 @media only screen and (max-width:600px) {
-  #section2{
+ /* #section2{
     height: 100%;
-  }
+  }*/
   #section1 h1 {
     margin-top: 60px;
     font-size: 42px;
@@ -133,6 +133,9 @@
   top: -100px;
   left: 90%;
 }
+.panel:nth-child(4) {
+  height: 1555px;
+}
 }
 @media only screen and (max-width:800px) {
   .slide.show  {
@@ -173,8 +176,24 @@
   margin-top:300px;
 }
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:700px){
+  .slide.show  {
+    display: flex;
+    background-size:65%;
+    background-repeat: no-repeat;
+  }
+  .about-contenair{
+    width: 355px;
+    justify-content:center;
+    margin-right: 100px;
+    height: auto;
+  }
   .panel:nth-child(2) {
+    height: 100%;
+  }
+}
+@media only screen and (max-width:800px){
+  .panel:nth-child(3) {
     height: 100%;
   }
   .panel:nth-child(3) {
@@ -184,6 +203,22 @@
     height:800px;
   }
 
+}
+@media only screen and (max-width:400px){
+  .slide.show  {
+    display: flex;
+    background-size:57%;
+    background-repeat: no-repeat;
+  }
+.panel:nth-child(4) {
+  height: 1750px;
+}
+.about-contenair{
+  width: 328px;
+  justify-content:center;
+  margin-right: 100px;
+  height: auto;
+}
 }
 /* ------------- */
 /* MEDIA QUERIES */
